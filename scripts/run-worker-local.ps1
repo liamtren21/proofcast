@@ -1,0 +1,10 @@
+$env:DATABASE_URL = 'postgres://proofcast:proofcast@127.0.0.1:5432/proofcast'
+$env:SOMNIA_RPC_URL = 'https://dream-rpc.somnia.network'
+$env:DREAMDEX_INDEXER_URL = 'https://dev.smk.somnia.host/v1/graphql'
+$env:WORKER_HEALTH_PORT = '9120'
+$env:PROOFCAST_ADAPTER_ADDRESS = '0xDbb251141Aa3772e8DC80023777fa26AbEb701ea'
+$env:PROOFCAST_REGISTRY_ADDRESS = '0x561999FFfe26dD0aA864c40771DCc3bf4665C5eB'
+$env:PROOFCAST_FACTORY_ADDRESS = '0xB6A466c418B3a6C2F576D5dAEac88C4D7985cc89'
+$env:INDEXER_START_BLOCK = '485283588'
+Set-Location 'D:\dorahack\proofcast'
+npm run dev:worker

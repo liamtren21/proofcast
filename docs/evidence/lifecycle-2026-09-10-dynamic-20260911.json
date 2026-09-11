@@ -1,0 +1,195 @@
+{
+  "isFork": false,
+  "liquidityEvidence": "PUBLIC_TESTNET_EXTERNAL_BOOK",
+  "startedAt": "2026-09-11T04:40:08.091Z",
+  "phase": "RECOVERED_AND_WITHDRAWN",
+  "owner": "0x7e0bDD1d6f0d76Bdd3716E37b58f9a8476b0603E",
+  "creatorType": "SELF_CONTROLLED_DEMO_CONTRACT",
+  "marketId": "0x0000000000000000000000000000000000000000000000000000000000019c77",
+  "pool": "0x1491b0369831ece5fa28fc3fdabd561f29315d4f",
+  "market": "0xCe0B52752745fE5D26B23d28062e1f73A387BBb5",
+  "expiry": "1789102800",
+  "transactions": [
+    {
+      "label": "deploy:LiveShannonDreamDexCatalog",
+      "hash": "0x4d49f289bcd88b5022d0064c38e423e2a663e40d4d8df7f17a221633fb01a1e9",
+      "status": "MINED_SUCCESS",
+      "block": 485283588
+    },
+    {
+      "label": "deploy:ProofCastDreamDexAdapter",
+      "hash": "0x4c28d2017f2b7532537bac8a2aa2b9a4dc2c2f02b4e5a85cd728dd21e456d902",
+      "status": "MINED_SUCCESS",
+      "block": 485283640
+    },
+    {
+      "label": "deploy:ProofCastRegistry",
+      "hash": "0xb3afa820b461c5a75943b961d76eaa415e8c64d0064c96e6fd88cbd131904343",
+      "status": "MINED_SUCCESS",
+      "block": 485283693
+    },
+    {
+      "label": "deploy:ProofCastExecutor",
+      "hash": "0xed231ac6bcb06233156381b6c9ca80da4a8d009a27d981c73b3439a80ab6239a",
+      "status": "MINED_SUCCESS",
+      "block": 485283744
+    },
+    {
+      "label": "deploy:ProofCastFactory",
+      "hash": "0xa2c97ed848ec2a38ed5fe7f468dbeee0cb2f017efa3005986b68ed12f52aed68",
+      "status": "MINED_SUCCESS",
+      "block": 485283798
+    },
+    {
+      "label": "deploy:ProofCastDemoCreator",
+      "hash": "0xa427dd5ca5ed53fab373f45348e910f50e3db6f87c379d15641cdc1f2e7ab0d9",
+      "status": "MINED_SUCCESS",
+      "block": 485283849
+    },
+    {
+      "label": "configure-protocol",
+      "hash": "0x4ae4c88783224703de1d24e58ee5cf86303c546c212ad0746d48f38aefec00ee",
+      "status": "MINED_SUCCESS",
+      "block": 485283899
+    },
+    {
+      "label": "adapter-factory",
+      "hash": "0x7e3c79ddc7887bafbad865340b2bd4439a2fd553a08592d73b077312a0670106",
+      "status": "MINED_SUCCESS",
+      "block": 485283943
+    },
+    {
+      "label": "executor-factory",
+      "hash": "0x9b6877d79ddf4cd5e922565243fe38d1d861c0bc06d43948e5b164b2d7a70d77",
+      "status": "MINED_SUCCESS",
+      "block": 485283987
+    },
+    {
+      "label": "native-enable",
+      "hash": "0x5f97bf0890ed00307636c56e47d9e48c0b9da4c1a8df40e50beeee36acd831db",
+      "status": "MINED_SUCCESS",
+      "block": 485284031
+    },
+    {
+      "label": "register-session",
+      "hash": "0xf0b4ac3c5e1560b7e082591ad27c14757c40db4e6f97191ec009d00ce1a62875",
+      "status": "MINED_SUCCESS",
+      "block": 485284080
+    },
+    {
+      "label": "create-vault",
+      "hash": "0x5c53e28d1d88e9e601de98ca634d324e0d75d39c418a012e4fc61d115b255fa7",
+      "status": "MINED_SUCCESS",
+      "block": 485284125
+    },
+    {
+      "label": "approve",
+      "hash": "0x2b0abd8a58989622d55bf718578e3599b12fc01c07925d63b67b0348032efc8d",
+      "status": "MINED_SUCCESS",
+      "block": 485284174
+    },
+    {
+      "label": "deposit",
+      "hash": "0x2335451bcd3f4f789b64917e73b740162c5962f1d7702d5774853da85d6a3245",
+      "status": "MINED_SUCCESS",
+      "block": 485284220
+    },
+    {
+      "label": "enroll",
+      "hash": "0x2b50207095757a0d9ceaabe0f67c927e148e22cfdcab10411f937afe9b28709d",
+      "status": "MINED_SUCCESS",
+      "block": 485284264
+    },
+    {
+      "label": "anchor-signal",
+      "hash": "0xd7c79ee9a8378bd905dcfc7a6be3fc8aa0206e7d912f7ea417557fde956ab3e6",
+      "status": "MINED_SUCCESS",
+      "block": 485284779
+    },
+    {
+      "label": "native-execute",
+      "hash": "0xcb27303c9dd7c5204207911e5f8d737ebfde7d412dbec532a57391185507a181",
+      "status": "MINED_SUCCESS",
+      "block": 485284824
+    },
+    {
+      "label": "revoke",
+      "hash": "0x8451b2ed55e0da38493cae989f045904c9cfe5d34b7ae67ef539095f9723775e",
+      "status": "MINED_SUCCESS",
+      "block": 485284879
+    },
+    {
+      "label": "withdraw-unused",
+      "hash": "0x658cf4c52e9978f32402da390627c2e3be9f9c3c64da20427d82191a29369711",
+      "status": "MINED_SUCCESS",
+      "block": 485284929
+    },
+    {
+      "label": "recover",
+      "hash": "0x69598e4609ca8e2ae8a20d03be319cf77805dd02406e711a81713ef7e3212d85",
+      "status": "MINED_SUCCESS",
+      "block": 485309285
+    }
+  ],
+  "LiveShannonDreamDexCatalog": {
+    "address": "0xa0d637b87263Cc7A85f763Dba3C5a504b0c69834",
+    "block": 485283588,
+    "txHash": "0x4d49f289bcd88b5022d0064c38e423e2a663e40d4d8df7f17a221633fb01a1e9",
+    "artifactHash": "0xdfc4eeaab68341fd07fdda3a7dd4e3071ff0d6bc61c4ea8fbab88c6c5d49f008"
+  },
+  "ProofCastDreamDexAdapter": {
+    "address": "0xDbb251141Aa3772e8DC80023777fa26AbEb701ea",
+    "block": 485283640,
+    "txHash": "0x4c28d2017f2b7532537bac8a2aa2b9a4dc2c2f02b4e5a85cd728dd21e456d902",
+    "artifactHash": "0xda96877dc5cc47fded02c2c87a33b1b53629d8b410d10dd479147321b9e47c54"
+  },
+  "ProofCastRegistry": {
+    "address": "0x561999FFfe26dD0aA864c40771DCc3bf4665C5eB",
+    "block": 485283693,
+    "txHash": "0xb3afa820b461c5a75943b961d76eaa415e8c64d0064c96e6fd88cbd131904343",
+    "artifactHash": "0x7895cbc142e1521b5c16f6077dce1d438a70452052c379e386ac8cf0fcca9a99"
+  },
+  "ProofCastExecutor": {
+    "address": "0xF314Eb01398804837729E7E50E971ECFd40e7Ce6",
+    "block": 485283744,
+    "txHash": "0xed231ac6bcb06233156381b6c9ca80da4a8d009a27d981c73b3439a80ab6239a",
+    "artifactHash": "0x3944583a72919d6973c556b97577178e7f062d9755a300b384549a5e09b12cb6"
+  },
+  "ProofCastFactory": {
+    "address": "0xB6A466c418B3a6C2F576D5dAEac88C4D7985cc89",
+    "block": 485283798,
+    "txHash": "0xa2c97ed848ec2a38ed5fe7f468dbeee0cb2f017efa3005986b68ed12f52aed68",
+    "artifactHash": "0xe12ec48fd07a77d1a2cbfc3cf2aa7046fd349f3643733d4987f0ea8ffcb9e3c6"
+  },
+  "ProofCastDemoCreator": {
+    "address": "0x4D32b32f90A3B8E1e804F0f1CC0bE48eA1c40978",
+    "block": 485283849,
+    "txHash": "0xa427dd5ca5ed53fab373f45348e910f50e3db6f87c379d15641cdc1f2e7ab0d9",
+    "artifactHash": "0x52a0fdac0ca81c470750b9f3920559ebe6030a861c5a9e3bf2ffb260f2864d8e"
+  },
+  "enrollUntil": "1789101719",
+  "sessionId": "0x5961e59f566872100a5664d3ba89d39f494106e6e8830392ea4a7f9ecf861840",
+  "enrollmentId": "0xdc56d54efaa9e80f2d71a67e75c6635396161cdaf1740f64bd938b2c0f6e429f",
+  "termsHash": "0x0bc6d228e3711388ba5c880c9b412c72b3c92fe2838b9872b5f44079965da090",
+  "ref": [
+    "0x0000000000000000000000000000000000000000000000000000000000019c77",
+    "85",
+    "0x1491b0369831ece5fa28fc3fdabd561f29315d4f",
+    "0x3ecC694Cef705358864a646142ac17A90E29e388",
+    "0x70a86D8842FB63C4Ad2b7cdddF530eBf1BB25d8E",
+    "0xB52c5934113Af5c0Bb20eb3C72290C8215f755b9",
+    "554541705565473741652591599693872688591637529475889483239461729883392",
+    "554541705565473741652591599693872688591637529475889483239461729883393",
+    "2",
+    "0x679795a0195a1b76cdebb7c51d74e058aee92919b8c3389af86ef24535e8a28c",
+    "1789099200",
+    "1789102799",
+    "1789102800"
+  ],
+  "vault": "0x8A2d55d133ec5507068a5AB2B5B0547a09bf50e8",
+  "signalSide": 2,
+  "signalPrice": "999000",
+  "actualCost": "20",
+  "actualQuantity": "1000",
+  "realizedLoss": "20"
+}

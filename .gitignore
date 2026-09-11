@@ -1,0 +1,10 @@
+node_modules/
+artifacts/
+contracts/cache/
+contracts/out/
+*.bin
+.env
+.vercel
+*.out.log
+*.err.log
+apps/web/dist/

@@ -1,0 +1,34 @@
+{
+  "name": "proofcast",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "test:api": "node --test test/api.test.js",
+    "test:worker": "node --test test/worker.test.js",
+    "test:contracts": "node scripts/compile-solidity-tests.mjs",
+    "check": "node --check src/session.js && node --check src/receipt.js",
+    "compile": "node scripts/compile.mjs",
+    "deploy": "node scripts/deploy.mjs",
+    "deploy:plan": "node scripts/deploy-plan.mjs",
+    "dev:web": "vite --config apps/web/vite.config.js",
+    "dev:api": "node apps/api/src/server.js",
+    "dev:worker": "node apps/worker/src/main.js",
+    "dev:executor": "node apps/worker/src/executor-main.js",
+    "db:migrate": "node scripts/migrate.mjs",
+    "build": "vite build --config apps/web/vite.config.js"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.1",
+    "ethers": "^6.17.0",
+    "solc": "^0.8.36",
+    "vite": "^8.2.2"
+  },
+  "dependencies": {
+    "@fastify/cookie": "^11.1.2",
+    "fastify": "^5.12.3",
+    "pg": "^8.23.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  }
+}

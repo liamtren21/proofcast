@@ -1,0 +1,186 @@
+{
+  "project": "proofcast",
+  "chainId": 50312,
+  "network": "PUBLIC_SHANNON",
+  "observedAt": "2026-09-11T05:23:36.034Z",
+  "observedBlock": 485309446,
+  "observedBlockHash": "0xc59ab61f5c7c9d478aca5d83551a03e64b3892cccc1dc77795b90ac215aa03d6",
+  "phase": "RECOVERED_AND_WITHDRAWN",
+  "complete": true,
+  "owner": "0x7e0bDD1d6f0d76Bdd3716E37b58f9a8476b0603E",
+  "vault": "0x8A2d55d133ec5507068a5AB2B5B0547a09bf50e8",
+  "vaultCodeHash": "0xc3030da945f8a1e0eae1054956b6f427be41fbed5fbc169878d0db054488ba07",
+  "marketId": "0x0000000000000000000000000000000000000000000000000000000000019c77",
+  "expiry": "1789102800",
+  "openRiskRaw": "0",
+  "realizedLossRaw": "20",
+  "cashRaw": "0",
+  "revoked": true,
+  "transactions": [
+    {
+      "label": "deploy:LiveShannonDreamDexCatalog",
+      "hash": "0x4d49f289bcd88b5022d0064c38e423e2a663e40d4d8df7f17a221633fb01a1e9",
+      "block": 485283588,
+      "blockHash": "0xb5c475917b7f6b86ff97db526302d03f29a0111b4d62d604f0e63ab9b6394138",
+      "to": null,
+      "status": "VERIFIED_SUCCESS"
+    },
+    {
+      "label": "deploy:ProofCastDreamDexAdapter",
+      "hash": "0x4c28d2017f2b7532537bac8a2aa2b9a4dc2c2f02b4e5a85cd728dd21e456d902",
+      "block": 485283640,
+      "blockHash": "0x08bd17c80f20a3f8fd346376daaeb2edd68faf21aae96b4e292f12a8d0d81be4",
+      "to": null,
+      "status": "VERIFIED_SUCCESS"
+    },
+    {
+      "label": "deploy:ProofCastRegistry",
+      "hash": "0xb3afa820b461c5a75943b961d76eaa415e8c64d0064c96e6fd88cbd131904343",
+      "block": 485283693,
+      "blockHash": "0x93390a0f758773c4d679c172d39dfaacf85de36daaa5f785b7ab06d5cbdbf5af",
+      "to": null,
+      "status": "VERIFIED_SUCCESS"
+    },
+    {
+      "label": "deploy:ProofCastExecutor",
+      "hash": "0xed231ac6bcb06233156381b6c9ca80da4a8d009a27d981c73b3439a80ab6239a",
+      "block": 485283744,
+      "blockHash": "0x83f25a9a1bf62b32e18e630469fafffc49ba421ca1db4ac94f3fa6bede5187a9",
+      "to": null,
+      "status": "VERIFIED_SUCCESS"
+    },
+    {
+      "label": "deploy:ProofCastFactory",
+      "hash": "0xa2c97ed848ec2a38ed5fe7f468dbeee0cb2f017efa3005986b68ed12f52aed68",
+      "block": 485283798,
+      "blockHash": "0x910eb10d3e5a34fef43b61a0f0cccdf0f39f4fc619fc77aee777e98614b1417c",
+      "to": null,
+      "status": "VERIFIED_SUCCESS"
+    },
+    {
+      "label": "deploy:ProofCastDemoCreator",
+      "hash": "0xa427dd5ca5ed53fab373f45348e910f50e3db6f87c379d15641cdc1f2e7ab0d9",
+      "block": 485283849,
+      "blockHash": "0x79179bd445943bd3ba2aa4f10711dd22c97d19541d9ea5b06404783c534a4776",
+      "to": null,
+      "status": "VERIFIED_SUCCESS"
+    },
+    {
+      "label": "configure-protocol",
+      "hash": "0x4ae4c88783224703de1d24e58ee5cf86303c546c212ad0746d48f38aefec00ee",
+      "block": 485283899,
+      "blockHash": "0x6a52810ff5d10591fd0829bc4e2ae8ab4efbccbb215d1cafcc318331c8b45d02",
+      "to": "0xDbb251141Aa3772e8DC80023777fa26AbEb701ea",
+      "status": "VERIFIED_SUCCESS"
+    },
+    {
+      "label": "adapter-factory",
+      "hash": "0x7e3c79ddc7887bafbad865340b2bd4439a2fd553a08592d73b077312a0670106",
+      "block": 485283943,
+      "blockHash": "0xf359f9d021c0d4bb16ae78898fd696872796e7d4ae68c9fa2bc13d200b9081b1",
+      "to": "0xDbb251141Aa3772e8DC80023777fa26AbEb701ea",
+      "status": "VERIFIED_SUCCESS"
+    },
+    {
+      "label": "executor-factory",
+      "hash": "0x9b6877d79ddf4cd5e922565243fe38d1d861c0bc06d43948e5b164b2d7a70d77",
+      "block": 485283987,
+      "blockHash": "0xd6d6f4258637db11edf2c94524c67e449cfdb09a935f13adbac067172d92e9d7",
+      "to": "0xF314Eb01398804837729E7E50E971ECFd40e7Ce6",
+      "status": "VERIFIED_SUCCESS"
+    },
+    {
+      "label": "native-enable",
+      "hash": "0x5f97bf0890ed00307636c56e47d9e48c0b9da4c1a8df40e50beeee36acd831db",
+      "block": 485284031,
+      "blockHash": "0xb869badc3b588d637170259942d6679a3078f02024969c2e65b0c3786232edda",
+      "to": "0xDbb251141Aa3772e8DC80023777fa26AbEb701ea",
+      "status": "VERIFIED_SUCCESS"
+    },
+    {
+      "label": "register-session",
+      "hash": "0xf0b4ac3c5e1560b7e082591ad27c14757c40db4e6f97191ec009d00ce1a62875",
+      "block": 485284080,
+      "blockHash": "0x4fcddc67d200a1cf80b36afb26b670af2f9cc02872e5c4a033acc1ae4783a0c5",
+      "to": "0x4D32b32f90A3B8E1e804F0f1CC0bE48eA1c40978",
+      "status": "VERIFIED_SUCCESS"
+    },
+    {
+      "label": "create-vault",
+      "hash": "0x5c53e28d1d88e9e601de98ca634d324e0d75d39c418a012e4fc61d115b255fa7",
+      "block": 485284125,
+      "blockHash": "0xa2d435fad05d80d9e834850d5059083d609fe2e71f944c699832425b64156665",
+      "to": "0xB6A466c418B3a6C2F576D5dAEac88C4D7985cc89",
+      "status": "VERIFIED_SUCCESS"
+    },
+    {
+      "label": "approve",
+      "hash": "0x2b0abd8a58989622d55bf718578e3599b12fc01c07925d63b67b0348032efc8d",
+      "block": 485284174,
+      "blockHash": "0x47b7654c2a15afda291f9bd3c39030ef7b297815c09df6e948389ef38bfde54c",
+      "to": "0x70a86D8842FB63C4Ad2b7cdddF530eBf1BB25d8E",
+      "status": "VERIFIED_SUCCESS"
+    },
+    {
+      "label": "deposit",
+      "hash": "0x2335451bcd3f4f789b64917e73b740162c5962f1d7702d5774853da85d6a3245",
+      "block": 485284220,
+      "blockHash": "0x558c01a243dd83d0a80bc20f6ed35cddf0827cfa68b0a9710219e7909253bddc",
+      "to": "0x8A2d55d133ec5507068a5AB2B5B0547a09bf50e8",
+      "status": "VERIFIED_SUCCESS"
+    },
+    {
+      "label": "enroll",
+      "hash": "0x2b50207095757a0d9ceaabe0f67c927e148e22cfdcab10411f937afe9b28709d",
+      "block": 485284264,
+      "blockHash": "0x4586e1d41d131af5938ef9cc04ade9ba5641247aa98d3c4fb82228dd0229e1e4",
+      "to": "0xF314Eb01398804837729E7E50E971ECFd40e7Ce6",
+      "status": "VERIFIED_SUCCESS"
+    },
+    {
+      "label": "anchor-signal",
+      "hash": "0xd7c79ee9a8378bd905dcfc7a6be3fc8aa0206e7d912f7ea417557fde956ab3e6",
+      "block": 485284779,
+      "blockHash": "0x9eb08d42e57e51d22197863e63e204c68306c1ee1c6ffdf638f9704760ec78c2",
+      "to": "0x4D32b32f90A3B8E1e804F0f1CC0bE48eA1c40978",
+      "status": "VERIFIED_SUCCESS"
+    },
+    {
+      "label": "native-execute",
+      "hash": "0xcb27303c9dd7c5204207911e5f8d737ebfde7d412dbec532a57391185507a181",
+      "block": 485284824,
+      "blockHash": "0x539efd0828d24f8c576ff84e8cb37f84ee73abe77e637137e7ac696eb34212a7",
+      "to": "0xF314Eb01398804837729E7E50E971ECFd40e7Ce6",
+      "status": "VERIFIED_SUCCESS"
+    },
+    {
+      "label": "revoke",
+      "hash": "0x8451b2ed55e0da38493cae989f045904c9cfe5d34b7ae67ef539095f9723775e",
+      "block": 485284879,
+      "blockHash": "0xf9c442e6dae45d432825c92f30618def6cf8ad24d57dbcebb779a8da7c242b67",
+      "to": "0xF314Eb01398804837729E7E50E971ECFd40e7Ce6",
+      "status": "VERIFIED_SUCCESS"
+    },
+    {
+      "label": "withdraw-unused",
+      "hash": "0x658cf4c52e9978f32402da390627c2e3be9f9c3c64da20427d82191a29369711",
+      "block": 485284929,
+      "blockHash": "0xc0e558c4d394c59e3ecc5852dae508b802e13b3811db76ab52b3a42d95114517",
+      "to": "0x8A2d55d133ec5507068a5AB2B5B0547a09bf50e8",
+      "status": "VERIFIED_SUCCESS"
+    },
+    {
+      "label": "recover",
+      "hash": "0x69598e4609ca8e2ae8a20d03be319cf77805dd02406e711a81713ef7e3212d85",
+      "block": 485309285,
+      "blockHash": "0x1efd0cba453816b0edaa5b65c19310fa1c79dcd00f602203e2dc8c59acd68d17",
+      "to": "0xF314Eb01398804837729E7E50E971ECFd40e7Ce6",
+      "status": "VERIFIED_SUCCESS"
+    }
+  ],
+  "limitations": [
+    "CLI lifecycle evidence, not browser wallet acceptance",
+    "No assertion of production hosting or worker execution",
+    "Receipt verification does not prove current source equals deployed bytecode"
+  ]
+}

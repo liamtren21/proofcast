@@ -1,0 +1,87 @@
+{
+  "chainId": 50312,
+  "network": "shannon",
+  "legacy": {
+    "proofCast": "0x5FABe3345eA001Ab21B3cD28e0509D597e58B42F",
+    "ioc": "0xfd5c482c52b37e1c64d66a6d6a5f0d9e015f150af100289ffd002eeb554a9449",
+    "readOnly": true
+  },
+  "dreamdex": {
+    "sdkVersion": "0.29.0",
+    "marketId": "0x000000000000000000000000000000000000000000000000000000000001577a",
+    "pool": "0x51279ea40969bc0e6391a065ad69fe8a3568ec73",
+    "module": "0x3ecC694Cef705358864a646142ac17A90E29e388",
+    "settlement": "0xbF4a49e0Dfd092e5FBE8E5761064C49533e6Ed23",
+    "collateral": "0x70a86D8842FB63C4Ad2b7cdddF530eBf1BB25d8E",
+    "outcomeToken": "0xB52c5934113Af5c0Bb20eb3C72290C8215f755b9",
+    "yesId": "2187928120441215520095599240571464517658868302140797912506522891454720",
+    "noId": "2187928120441215520095599240571464517658868302140797912506522891454721",
+    "nonce": "9",
+    "expiry": "1788753600",
+    "observedStatus": "FINALIZED",
+    "winningOutcome": 1,
+    "nativeExecutionEnabled": false,
+    "nativeRecoveryEnabled": false
+  },
+  "proofcast": {
+    "registry": "0x69C913Aa22f8F4fd01F645115bB8d49eA0287aCf",
+    "factory": "0xB1DeEd5B213ad9573b0D003D45AF37c17d8c8c41",
+    "executor": "0x6969f27D787AAB555FCE9CC115e089707DEA217c",
+    "adapter": "0x248ceF16c8D61A604084983Abd6c7FB52AA79477",
+    "catalog": "0x2C02f0f69bC3518eeF0203C63d50Ef58D099aAe8"
+  },
+  "gates": {
+    "nativeVerified": false,
+    "fundingEnabled": false,
+    "sponsorEnabled": false,
+    "testnetEvidence": false
+  },
+  "deployments": {
+    "proofCastDynamicV3": {
+      "evidence": "docs/evidence/lifecycle-2026-09-10-dynamic-20260911.json",
+      "catalog": "0xa0d637b87263Cc7A85f763Dba3C5a504b0c69834",
+      "registry": "0x561999FFfe26dD0aA864c40771DCc3bf4665C5eB",
+      "factory": "0xB6A466c418B3a6C2F576D5dAEac88C4D7985cc89",
+      "executor": "0xF314Eb01398804837729E7E50E971ECFd40e7Ce6",
+      "adapter": "0xDbb251141Aa3772e8DC80023777fa26AbEb701ea",
+      "vault": "0x8A2d55d133ec5507068a5AB2B5B0547a09bf50e8",
+      "status": "awaiting-settlement"
+    },
+    "proofCastV2": {
+      "ShannonDreamDexCatalog": {
+        "address": "0x2C02f0f69bC3518eeF0203C63d50Ef58D099aAe8",
+        "txHash": "0x96b04f6b23b8d357fbd00d691e807c37bac85a3f3e9fef938142abcc5d27fe10",
+        "block": 482226149
+      },
+      "ProofCastDreamDexAdapter": {
+        "address": "0x248ceF16c8D61A604084983Abd6c7FB52AA79477",
+        "txHash": "0x88207d71fbbd69b21d79c62fa19fdfa5701e6d8486be34566566e4b2ac9d20e8",
+        "block": 482226182
+      },
+      "ProofCastRegistry": {
+        "address": "0x69C913Aa22f8F4fd01F645115bB8d49eA0287aCf",
+        "txHash": "0x9d25b35c626594b6754d510c084a9fa8d6470dfce9fe9cde85801faac87768b0",
+        "block": 482226217
+      },
+      "ProofCastExecutor": {
+        "address": "0x6969f27D787AAB555FCE9CC115e089707DEA217c",
+        "txHash": "0x038ff6fe077d0c561f1ba3fb1610f69077e11a79a7f5da7fb30c6caf12153317",
+        "block": 482226251
+      },
+      "ProofCastFactory": {
+        "address": "0xB1DeEd5B213ad9573b0D003D45AF37c17d8c8c41",
+        "txHash": "0x7f22e3b1461975c14044e84e7c967a110bbee496eeae4228a07c1c3fb513c6e8",
+        "block": 482226286
+      },
+      "linking": {
+        "adapterSetFactory": "0x8eb7678eeda1108d98514a43d4c6b4b6299e5cfa61dd7c7d50a5e861ca5f2244",
+        "executorSetFactory": "0xf6650b32daa1d98742847f7a8b63ccfacd4dcbb8d583698798b2d613494bae1a"
+      },
+      "deployer": "0x7e0bDD1d6f0d76Bdd3716E37b58f9a8476b0603E",
+      "rpc": "https://dream-rpc.somnia.network",
+      "nativeExecutionEnabled": false,
+      "nativeRecoveryEnabled": false,
+      "status": "deployed-fail-closed"
+    }
+  }
+}
