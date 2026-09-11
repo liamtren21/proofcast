@@ -6,7 +6,7 @@ ProofCast lets people enroll in a creator's DreamDEX event-contract session befo
 
 Each enrollment has its own vault. The creator supplies the signal; the follower controls the capital.
 
-[Workflow](#session-workflow) · [Architecture](#architecture) · [Quick start](#quick-start) · [Testnet lifecycle](#testnet-lifecycle)
+[Demo video](https://youtu.be/R3BhyNo9zUo) · [Workflow](#session-workflow) · [Architecture](#architecture) · [Quick start](#quick-start) · [Testnet lifecycle](#testnet-lifecycle)
 
 ## Why build this?
 
